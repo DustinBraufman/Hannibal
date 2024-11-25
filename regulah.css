@@ -7,4 +7,49 @@ font-size: 29px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 750px;
+}
+
+.bodytextright{
+        text-align: right;
+        color: #FFF;
+    text-align: right;
+    font-family: "Times Sans Serif";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 750px;
+}
+
+.headingleft{
+    color: #FFF;
+text-align: right;
+font-family: "Homemade Apple";
+font-size: 98px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+}
+
+.headingright{
+    color: #FFF;
+text-align: right;
+font-family: "Homemade Apple";
+font-size: 98px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: right;
+}
+
+.nav{
+    color: #857D7D;
+font-family: "IM FELL DW Pica SC";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+word-spacing: 102px;
 }
