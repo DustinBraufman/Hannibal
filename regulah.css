@@ -53,3 +53,13 @@ font-weight: 400;
 line-height: normal;
 word-spacing: 102px;
 }
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav a.active {
+    color: #C9B9B9;
+}
