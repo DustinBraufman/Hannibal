@@ -1,3 +1,7 @@
+.body{
+    background-color: black;
+}
+
 .textleft{
     text-align: left;
     color: #FFF;
@@ -22,7 +26,7 @@ width: 750px;
     width: 750px;
 }
 
-.headingleft{
+.h2{
     color: #FFF;
 text-align: right;
 font-family: "Homemade Apple";
@@ -33,7 +37,7 @@ line-height: normal;
 text-align: left;
 }
 
-.headingright{
+.h3{
     color: #FFF;
 text-align: right;
 font-family: "Homemade Apple";
