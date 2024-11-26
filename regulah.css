@@ -1,4 +1,4 @@
-.bodytextleft{
+.textleft{
     text-align: left;
     color: #FFF;
 text-align: right;
@@ -10,7 +10,7 @@ line-height: normal;
 width: 750px;
 }
 
-.bodytextright{
+.textright{
         text-align: right;
         color: #FFF;
     text-align: right;
@@ -62,4 +62,9 @@ word-spacing: 102px;
 
 .nav a.active {
     color: #C9B9B9;
+}
+
+.item{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
