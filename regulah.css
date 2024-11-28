@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: black;
 }
 
@@ -26,22 +26,24 @@ width: 750px;
     width: 750px;
 }
 
-.h2{
+h2{
     color: #FFF;
 text-align: right;
-font-family: "Homemade Apple";
-font-size: 98px;
+font-family: "Homemade Apple", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: left;
 }
 
-.h3{
+h3{
     color: #FFF;
 text-align: right;
 font-family: "Homemade Apple";
-font-size: 98px;
+font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -50,13 +52,22 @@ text-align: right;
 
 .nav{
     color: #857D7D;
-font-family: "IM FELL DW Pica SC";
-font-size: 64px;
-font-style: normal;
+    font-family: "IM Fell DW Pica", serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 32px;
 font-weight: 400;
 line-height: normal;
-word-spacing: 102px;
+padding-left: 50px;
+padding-top: 25px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+position: relative;
+gap: 102px;
 }
+
+
 
 .nav a {
     color: inherit;
@@ -71,4 +82,15 @@ word-spacing: 102px;
 .item{
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sticky-link {
+    position: sticky; /* Makes the image sticky */
+    top: 10px; /* Distance from the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
+  }
+
+.sticky-link img {
+    display: block;
+    margin: 0 auto;
 }
