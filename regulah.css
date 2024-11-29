@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
     min-height: 100vh;
     overflow-y: visible;
+    margin:0;
 }
 
 @font-face {
@@ -63,7 +64,7 @@ font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-text-align: right;
+
 padding-right: 120px;
 margin-bottom: 0%;
 }
@@ -213,4 +214,81 @@ z-index: 1000;
     border-color: rgba(0, 0, 0, 0.4);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
     transform: translateY(-2px);
+}
+
+.textright1 {
+    text-align: left;
+    color: #FFF;
+    font-family: "Times Sans";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 750px;
+    margin-left: 0; 
+    margin-right: 0;
+    padding-left: 700px; 
+   
+}
+
+h4{
+    color: #FFF;
+text-align: right;
+font-family: "Homemade Apple", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+padding-left: 500px;
+margin-bottom: 0%;
+}
+
+.itemleft1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20px 60px;
+    height: 1300px;
+    background-size: 1300px;
+}
+
+
+.hover-container {
+    position: absolute; 
+    display: inline-block; 
+    margin-left: 200px;
+}
+
+
+.hover-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #800000; 
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.hover-text {
+    display: none; 
+    position: absolute; 
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    background-color: rgba(134, 0, 0, 0.618);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 230px; 
+    font-family: "Times Sans", serif;
+    word-wrap: break-word;
+}
+
+.hover-container:hover .hover-text {
+    display: block;
 }
