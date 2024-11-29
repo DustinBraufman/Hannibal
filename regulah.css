@@ -1,29 +1,41 @@
 body{
     background-color: black;
+    overflow-x: hidden;
+    min-height: 100vh;
+    overflow-y: visible;
+}
+
+@font-face {
+    font-family: Time Sans;
+    src: url(font/TIMESS__.ttf) format('truetype');
 }
 
 .textleft{
-    text-align: left;
+    text-justify: left;
     color: #FFF;
-text-align: right;
-font-family: "Times Sans Serif";
+text-align: left;
+font-family: "Times Sans";
 font-size: 29px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 width: 750px;
+padding-left: 200px;
+margin: 0;
 }
 
-.textright{
-        text-align: right;
-        color: #FFF;
+.textright {
     text-align: right;
-    font-family: "Times Sans Serif";
+    color: #FFF;
+    font-family: "Times Sans";
     font-size: 29px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 750px;
+    width: 750px; /* Adjust the width as needed */
+    margin-left: auto; /* Pushes the element to the right */
+    margin-right: 0; /* Optional: Ensures no extra margin on the right */
+    padding-right: 200px; /* Adjusts the padding for spacing from the edge */
 }
 
 h2{
@@ -37,6 +49,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: left;
+padding-left: 120px;
+margin-bottom: 0%;
 }
 
 h3{
@@ -48,6 +62,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-align: right;
+padding-right: 120px;
+margin-bottom: 0%;
 }
 
 .nav{
@@ -55,7 +71,7 @@ text-align: right;
     font-family: "IM Fell DW Pica", serif;
     font-weight: 400;
     font-style: normal;
-font-size: 32px;
+font-size: 45px;
 font-weight: 400;
 line-height: normal;
 padding-left: 50px;
@@ -64,7 +80,8 @@ display: flex;
 /* justify-content: center; */
 align-items: center;
 position: relative;
-gap: 102px;
+gap: 109px;
+z-index: 1000;
 }
 
 
@@ -79,18 +96,26 @@ gap: 102px;
     color: #C9B9B9;
 }
 
-.item{
+.itemright{
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: calc(100% - 70px) 0px; 
+    height: 700px;
+    background-size: 550px;
 }
 
-.sticky-link {
-    position: sticky; /* Makes the image sticky */
-    top: 10px; /* Distance from the top of the viewport */
-    z-index: 1000; /* Ensures it stays above other content */
-  }
+.itemleft{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px -20px;
+    height: 700px;
+    background-size: 550px;
+}
 
-.sticky-link img {
-    display: block;
-    margin: 0 auto;
+.death{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70px 40px;
+    height: 700px;
+    background-size: 550px;
 }
