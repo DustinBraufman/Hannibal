@@ -6,9 +6,11 @@ body{
 }
 
 @font-face {
-    font-family: Time Sans;
-    src: url(font/TIMESS__.ttf) format('truetype');
-}
+    font-family: 'Times Sans';
+    src: url(font/timess__-webfont.woff) format('woff2'),
+         url(font/timess__-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;}
 
 .textleft{
     text-justify: left;
@@ -32,10 +34,10 @@ margin: 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 750px; /* Adjust the width as needed */
-    margin-left: auto; /* Pushes the element to the right */
-    margin-right: 0; /* Optional: Ensures no extra margin on the right */
-    padding-right: 200px; /* Adjusts the padding for spacing from the edge */
+    width: 750px;
+    margin-left: auto; 
+    margin-right: 0;
+    padding-right: 200px; 
 }
 
 h2{
@@ -159,24 +161,56 @@ z-index: 1000;
     background-size: 550px;
 }
 
+.elephant{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px 30px;
+    height: 700px;
+    background-size: 650px;
+}
+
 .custom-button {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding for button size */
-    font-size: 18px; /* Font size for text */
-    font-family: "Times Sans";
-    color: black; /* Text color */
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Light border */
-    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 18px; 
+    font-family: "Times Sans", serif;
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
     text-align: center;
-    text-decoration: none; /* Remove underline */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    transition: all 0.3s ease; /* Smooth hover effect */
+    text-decoration: none; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-left: 60%;
 }
 
 .custom-button:hover {
-    background-color: rgba(255, 255, 255, 1); /* Make background fully opaque */
-    border-color: rgba(0, 0, 0, 0.4); /* Darker border on hover */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
-    transform: translateY(-2px); /* Lift button slightly */
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px);
+}
+
+.custom-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px; 
+    font-family: "Times Sans", serif;
+    color: black; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-left: 30%;
+}
+
+.custom-button2:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px);
 }
