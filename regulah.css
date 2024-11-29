@@ -84,17 +84,24 @@ gap: 109px;
 z-index: 1000;
 }
 
-
-
 .nav a {
-    color: inherit;
+    color: #857D7D;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.nav a.active {
+
+.nav a:hover {
+    color: #A6A1A1; 
+}
+
+
+.nav a:active, 
+.nav a[aria-current="page"] {
     color: #C9B9B9;
 }
+
+
 
 .itemright{
     background-repeat: no-repeat;
@@ -116,6 +123,37 @@ z-index: 1000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70px 40px;
+    height: 700px;
+    background-size: 550px;
+}
+
+.hamilcar{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(100% - 70px) 0px; 
+    height: 700px;
+    background-size: 450px;
+}
+
+.hannibalstatueeeee{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px -20px;
+    height: 700px;
+    background-size: 400px;
+}
+
+.horsiee {
+    background-repeat: no-repeat;
+    background-size: 800px; /* Keeps the image size */
+    background-position: calc(100% + 120px) 0px;
+    height: 700px;
+}
+
+.carthage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px 10px;
     height: 700px;
     background-size: 550px;
 }
