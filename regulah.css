@@ -266,18 +266,45 @@ margin-bottom: 0%;
 
 .hover-container-1 {
     position: absolute; 
-    left: 330px;
-    top: 340px;
+    left: 220px;
+    top: 360px;
     display: inline-block; 
 }
 
 .hover-container-2 {
     position: absolute; 
-    left: 400px;
-    top: 400px;
+    left: 395px;
+    top: 370px;
     display: inline-block; 
 }
 
+.hover-container-3 {
+    position: absolute; 
+    left: 450px;
+    top: 420px;
+    display: inline-block; 
+}
+
+.hover-container-4 {
+    position: absolute; 
+    left: 550px;
+    top: 550px;
+    display: inline-block; 
+}
+
+.hover-container-5 {
+    position: absolute; 
+    left: 850px;
+    top: 810px;
+    display: inline-block; 
+}
+
+.hover-container-6 {
+    position: absolute; 
+    left: 900px;
+    top: 1035px;
+    display: inline-block; 
+}
 
 .hover-circle {
     width: 40px;
@@ -295,7 +322,7 @@ margin-bottom: 0%;
     bottom: 50px; 
     left: 50%;
     transform: translateX(-50%); 
-    background-color: rgba(134, 0, 0, 0.618);
+    background-color: rgba(134, 0, 0, 0.9);
     color: white;
     border-radius: 10px;
     padding: 10px;
@@ -304,6 +331,7 @@ margin-bottom: 0%;
     width: 230px; 
     font-family: "Times Sans", serif;
     word-wrap: break-word;
+    z-index: 1000;
 }
 
 .hover-container-1:hover .hover-text {
@@ -311,5 +339,21 @@ margin-bottom: 0%;
 }
 
 .hover-container-2:hover .hover-text {
+    display: block;
+}
+
+.hover-container-3:hover .hover-text {
+    display: block;
+}
+
+.hover-container-4:hover .hover-text {
+    display: block;
+}
+
+.hover-container-5:hover .hover-text {
+    display: block;
+}
+
+.hover-container-6:hover .hover-text {
     display: block;
 }
