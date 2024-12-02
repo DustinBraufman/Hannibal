@@ -56,6 +56,13 @@ padding-left: 120px;
 margin-bottom: 0%;
 }
 
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   
+}
+
 h3{
     color: #FFF;
 text-align: right;
@@ -68,6 +75,8 @@ line-height: normal;
 padding-right: 120px;
 margin-bottom: 0%;
 }
+
+
 
 .nav{
     color: #857D7D;
@@ -148,7 +157,7 @@ z-index: 1000;
 
 .horsiee {
     background-repeat: no-repeat;
-    background-size: 800px; /* Keeps the image size */
+    background-size: 800px;
     background-position: calc(100% + 120px) 0px;
     height: 500px;
     margin-bottom: 0%;
