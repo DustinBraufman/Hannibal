@@ -256,18 +256,26 @@ margin-bottom: 0%;
 }
 
 .itemleft1{
+    position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: 20px 60px;
     height: 1300px;
     background-size: 1300px;
 }
 
 
-.hover-container {
+.hover-container-1 {
     position: absolute; 
+    left: 330px;
+    top: 340px;
     display: inline-block; 
-    margin-left: 200px;
+}
+
+.hover-container-2 {
+    position: absolute; 
+    left: 400px;
+    top: 400px;
+    display: inline-block; 
 }
 
 
@@ -298,6 +306,10 @@ margin-bottom: 0%;
     word-wrap: break-word;
 }
 
-.hover-container:hover .hover-text {
+.hover-container-1:hover .hover-text {
+    display: block;
+}
+
+.hover-container-2:hover .hover-text {
     display: block;
 }
